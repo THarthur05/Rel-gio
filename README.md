@@ -1,8 +1,8 @@
-# ⏰ Relógio com Arduino Uno, RTC DS1307 e LCD 16x2 (Sem I2C)  
+# Relógio com Arduino Uno, RTC DS1307 e LCD 16x2 (Sem I2C)  
 
 ![Arduino Uno](https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg)  
 
-## 📜 Descrição  
+## Descrição  
 Este projeto consiste em um relógio digital utilizando um **Arduino Uno**, um **módulo RTC DS1307** e um **display LCD 16x2 sem interface I2C**. O objetivo é exibir a hora e a data em um LCD, mantendo a precisão do tempo mesmo quando o Arduino for desligado, graças ao RTC.  
 
 🔹 **Funcionalidades:**  
@@ -12,13 +12,12 @@ Este projeto consiste em um relógio digital utilizando um **Arduino Uno**, um *
 - Ideal para projetos de automação e controle de tempo  
 
 ## 📑 Sumário  
-- [🛠️ Pré-requisitos](#🛠️-pré-requisitos)  
-- [📥 Instalação](#📥-instalação)  
-- [🔌 Conexões](#🔌-conexões)  
-- [📜 Código-fonte](#📜-código-fonte)  
-- [📷 Imagens](#📷-imagens)  
+- [ Pré-requisitos](#-pré-requisitos) 
+- [ Instalação](#-instalação)  
+- [ Conexões](#-conexões)  
+- [ Código-fonte](#-código-fonte)  
 
-## 🛠️ Pré-requisitos  
+## Pré-requisitos  
 Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:  
 
 ### **Hardware:**  
@@ -34,7 +33,7 @@ Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:
 - Biblioteca **RTClib** (para comunicação com o RTC)  
 - Biblioteca **LiquidCrystal** (para o LCD)  
 
-## 📥 Instalação  
+## Instalação  
 1️⃣ Instale o **Arduino IDE** se ainda não tiver.  
 2️⃣ Adicione a biblioteca **RTClib**:  
    - No Arduino IDE, vá em **Sketch → Incluir Biblioteca → Gerenciar Bibliotecas**  
@@ -78,7 +77,7 @@ Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:
 | 2 (Meio)        | V0 do LCD |
 | 3 (Direita)     | GND      |
 
-## 📜-código-fonte
+## -código-fonte
 
 #include <Wire.h>
 #include <RTClib.h>
