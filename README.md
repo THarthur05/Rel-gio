@@ -12,10 +12,12 @@ Este projeto consiste em um relógio digital utilizando um **Arduino Uno**, um *
 - Ideal para projetos de automação e controle de tempo  
 
 ## 📑 Sumário  
-- [ Pré-requisitos](#-pré-requisitos) 
-- [ Instalação](#-instalação)  
-- [ Conexões](#-conexões)  
-- [ Código-fonte](#-código-fonte)  
+- [Pré-requisitos](#pré-requisitos)  
+- [Instalação](#instalação)  
+- [Conexões](#-conexões)  
+- [Código Fonte](#-código-fonte)  
+- [Imagens](#-imagens)
+  
 
 ## Pré-requisitos  
 Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:  
