@@ -45,7 +45,38 @@ Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:
 
 5️⃣ Conecte os componentes conforme a tabela abaixo e faça o upload do código no Arduino. 
 
-🔌 Conexões
+## 🔌 Conexões  
+
+### **RTC DS1307 → Arduino**  
+| Pino RTC DS1307 | Pino Arduino Uno |
+|----------------|----------------|
+| VCC            | 5V             |
+| GND            | GND            |
+| SDA            | A4             |
+| SCL            | A5             |
+
+### **LCD 16x2 → Arduino**  
+| Pino LCD | Pino Arduino Uno |
+|----------|-----------------|
+| VSS      | GND             |
+| VDD      | 5V              |
+| V0       | Meio do potenciômetro |
+| RS       | 7               |
+| RW       | GND             |
+| E        | 8               |
+| D4       | 9               |
+| D5       | 10              |
+| D6       | 11              |
+| D7       | 12              |
+| A (LED+) | 5V (com resistor de 220Ω) |
+| K (LED-) | GND             |
+
+### **Potenciômetro 10KΩ → LCD**  
+| Pino Potenciômetro | Conexão |
+|------------------|----------|
+| 1 (Esquerda)    | 5V       |
+| 2 (Meio)        | V0 do LCD |
+| 3 (Direita)     | GND      |
 
 ```sh
 git clone https://github.com/seu-usuario/relogio-arduino-rtc-ds1307.git
