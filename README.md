@@ -78,5 +78,51 @@ Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:
 | 2 (Meio)        | V0 do LCD |
 | 3 (Direita)     | GND      |
 
+## 📜-código-fonte
+
+#include <Wire.h>
+#include <RTClib.h>
+#include <LiquidCrystal.h>
+
+// Definição dos pinos do LCD
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+RTC_DS1307 rtc;
+
+void setup() {
+  lcd.begin(16, 2);
+  Wire.begin();
+
+  if (!rtc.begin()) {
+    lcd.print("Erro no RTC");
+    while (1);
+  }
+
+  if (!rtc.isrunning()) {
+    lcd.print("Ajustando RTC...");
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  }
+}
+
+void loop() {
+  DateTime now = rtc.now();
+
+  lcd.setCursor(0, 0);
+  lcd.print("Hora: ");
+  lcd.print(now.hour(), DEC);
+  lcd.print(":");
+  lcd.print(now.minute(), DEC);
+  lcd.print(":");
+  lcd.print(now.second(), DEC);
+
+  lcd.setCursor(0, 1);
+  lcd.print("Data: ");
+  lcd.print(now.day(), DEC);
+  lcd.print("/");
+  lcd.print(now.month(), DEC);
+  lcd.print("/");
+  lcd.print(now.year(), DEC);
+
+  delay(1000);
+
 ```sh
 git clone https://github.com/seu-usuario/relogio-arduino-rtc-ds1307.git
