@@ -43,5 +43,9 @@ Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:
    - Já vem instalada por padrão no Arduino IDE  
 4️⃣ Baixe o código-fonte do projeto e carregue no Arduino.  
 
+5️⃣ Conecte os componentes conforme a tabela abaixo e faça o upload do código no Arduino. 
+
+🔌 Conexões
+
 ```sh
 git clone https://github.com/seu-usuario/relogio-arduino-rtc-ds1307.git
