@@ -15,8 +15,8 @@ Este projeto implementa um relógio digital com alarme, utilizando um Arduino Un
 - [1. Pré-requisitos](#1-pré-requisitos)  
 - [2. Instalação](#2-instalação)  
 - [3. Conexões](#3-conexões)  
-- [4. Código-fonte](#4-código-fonte)
-- [5. Imagem] (#5-imagens) 
+- [4. Código-fonte](#4-código-fonte)  
+- [5. Imagens](#5-imagens)  
 
 ## 1. Pré-requisitos  
 Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:  
@@ -164,11 +164,8 @@ void loop() {
 
   delay(1000);
 }
-  ## Imagens
-  ![Amazing Snaget-Allis](https://github.com/user-attachments/assets/b775c827-b3f9-4735-b81a-09214baa2411)
 
+## Imagens
+![Amazing Snaget-Allis (1)](https://github.com/user-attachments/assets/0f60c0e0-dbb0-4d32-bd79-c64984f8977d)
 
-  
-
-```sh
-git clone https://github.com/seu-usuario/relogio-arduino-rtc-ds1307.git
+ 
