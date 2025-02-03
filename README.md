@@ -124,6 +124,7 @@ void loop() {
   lcd.print(now.year(), DEC);
 
   delay(1000);
+  }
 
 ```sh
 git clone https://github.com/seu-usuario/relogio-arduino-rtc-ds1307.git
