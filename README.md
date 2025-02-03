@@ -168,8 +168,5 @@ void loop() {
 
   delay(1000);
 }
----
-## 5. Imagens
-  ![Amazing Snaget-Allis (1)](https://github.com/user-attachments/assets/76a7a090-79db-4043-9889-ec7ee36e48ba)
 
 
