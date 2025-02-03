@@ -16,7 +16,7 @@ Este projeto implementa um relógio digital com alarme, utilizando um Arduino Un
 - [2. Instalação](#2-instalação)  
 - [3. Conexões](#3-conexões)  
 - [4. Código-fonte](#4-código-fonte)  
-- [5. Imagens](#5-imagens)  
+- [5. Imagens](#5-imagens)  <!-- Adicionando o item Imagens ao sumário -->
 
 ## 1. Pré-requisitos  
 Antes de iniciar, certifique-se de ter os seguintes componentes e ferramentas:  
@@ -164,10 +164,3 @@ void loop() {
 
   delay(1000);
 }
-
-
-
-## Imagens
-![Amazing Snaget-Allis (1)](https://github.com/user-attachments/assets/0f60c0e0-dbb0-4d32-bd79-c64984f8977d)
-
- 
