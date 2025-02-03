@@ -127,8 +127,8 @@ void loop() {
   }
 
   ## Imagens
-  ![Texto alternativo](![Amazing Snaget-Allis](https://github.com/user-attachments/assets/b775c827-b3f9-4735-b81a-09214baa2411)
-)
+  ![Amazing Snaget-Allis](https://github.com/user-attachments/assets/b775c827-b3f9-4735-b81a-09214baa2411)
+
 
   
 
