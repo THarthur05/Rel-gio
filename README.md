@@ -164,3 +164,5 @@ void loop() {
 
   delay(1000);
 }
+
+## 5. Imagens
